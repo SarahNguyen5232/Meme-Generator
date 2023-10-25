@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Meme Collector</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <h1>
+        Meme Generator: let the funny out
+    </h1>
+    <form id="meme-form">
+        <label for="image">Add your photo:</label>
+        <input type="file" id="image" required/>
+        <p>Add your text:</p>
+        <input type="text" id="topText" placeholder="Top Text" required/>
+        <input type="text" id="bottomText" placeholder="Bottom Text" required/>
+        <p><input type="button" id="add" value="Add meme"/></p>
+        <p><input type="checkbox" id="deleteMeme"/> Delete Meme</p>
+    </form>
+
+    <div id="meme-container"></div>
+    <script src='meme.js'></script>
+</body>
+</html>

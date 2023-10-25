@@ -1,0 +1,30 @@
+.meme {
+    position: relative;
+}
+
+.meme img {
+    width: 100%; 
+    display: block;
+}
+
+.top-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); 
+    color: #fff;
+    padding: 5px; 
+}
+
+.bottom-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); 
+    color: #fff;
+    padding: 5px; 
+}
